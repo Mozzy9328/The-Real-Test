@@ -1,0 +1,28 @@
+div h1,
+p {
+	background-color: rgb(56, 110, 160);
+	color: wheat;
+	font-style: oblique;
+	text-align: center;
+	margin: 0px;
+	clear: both;
+}
+header a {
+	display: inline-block;
+	padding-top: 0px;
+	background-color: rgb(51, 1, 1);
+	color: white;
+	float: right;
+	text-align: center;
+	margin: 10px;
+	min-width: 50px;
+}
+.logo_style {
+	width: 50px;
+}
+header,
+main,
+body {
+	background-color: rgb(82, 37, 37);
+}
+/* Contact /*

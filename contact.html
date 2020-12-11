@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Contact Us" meta />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<form action="salesforce.php" method="GET">
+			<!-- // Contact information section -->
+
+			<fieldset>
+				<legend>Contact Information</legend>
+				<label for="Firstname">First Name</label>
+				<input type="text" id="Firstname" />
+				<label for="Lastname">Last Name</label>
+				<input type="text" id="Lastname" />
+				<label for="Email">Email</label>
+				<input type="text" id="Email" />
+				<label for="Phone">Phone</label>
+				<input type="tel" id="Phone" />
+			</fieldset>
+            <!-- // IT solution section -->
+        </select>
+        <fieldset>
+            <legend>Choose IT Solution</legend>
+			<label for="IT-choice">Choose IT service:</label>
+			<select id="IT-choice" name="IT-choice">
+				<option value="Configuration">Configuration</option>
+				<option value="Support">Support</option>
+				<option value="Implementation">Implementation</option>
+				<option value="Migration">Migration</option>
+				<option value="User Training">User Training</option>
+            </select>
+        </fieldset>
+			<fieldset>
+				<legend>Diverse Information</legend>
+				<!-- // Radio buttons section -->
+				<label for="Mustafa">Mustafa</label>
+				<input type="radio" value="Mustafa" name="Firstname" id="Mustafa" />
+				<label for="Keyd">Keyd</label>
+				<input type="radio" value="Keyd" name="Firstname" id="Keyd" />
+				<label for="Abdulfatah">Abdulfatah</label>
+				<input
+					type="radio"
+					value="Abdulfatah"
+					name="Firstname"
+					id="Abdulfatah"
+				/>
+				<!-- // Check box section -->
+				<label for="checkbox">Have you finished all fields?</label>
+				<input type="checkbox" id="checkbox" />
+			</fieldset>
+		</form>
+	</body>
+</html>
