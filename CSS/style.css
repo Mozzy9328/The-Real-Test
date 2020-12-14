@@ -5,7 +5,7 @@ p {
 	font-style: oblique;
 	text-align: center;
 	margin: 0px;
-	clear: both;
+    clear: both;
 }
 header a {
 	display: inline-block;
@@ -15,7 +15,7 @@ header a {
 	float: right;
 	text-align: center;
 	margin: 10px;
-	min-width: 50px;
+    min-width: 50px;
 }
 .logo_style {
 	width: 50px;
@@ -23,6 +23,23 @@ header a {
 header,
 main,
 body {
-	background-color: rgb(82, 37, 37);
+    background-color: rgb(82, 37, 37);
+
+}
+
+body div img {
+    width: 300px;
+    height: 300px
+}
+h2 {
+    position: relative;
+    top: 200%;
+    bottom: 200%;
+    bottom: 45%;
+}
+.position {
+    position: relative;
+    top: 0%;
+    right: 0%;
 }
 /* Contact /*
